@@ -1,0 +1,16 @@
+<!--
+    Seccion de Aviso. 
+    Esta seccion notifica al usuario que es un
+    correo netamente informativo y muestra el Copyright.
+-->
+
+<mj-section padding="20px 0px 20px 20px" full-width="full-width">
+  <mj-column width="100%" padding="30px 0px 0px 0px">
+    <mj-text align="center" font-size="10px" color="grey" >
+      Este mensaje es solo informativo ro responder a este correo.
+    </mj-text>
+    <mj-text align="center" font-size="10px" font-weight="600" color="#000000" padding="0px">
+      {{shop_name}}. Todos los derechos reservados
+    </mj-text>
+  </mj-column>
+</mj-section>

@@ -1,0 +1,21 @@
+<mj-section background-color="#ffffff">
+  <mj-column width="100%">
+    <mj-text align="center" font-size="16px" font-weight="500" padding="10px 0px">TIPO DE {{receiving_type}}</mj-text>
+  </mj-column>
+</mj-section>
+<mj-section>
+  <mj-column width="50%">
+    <mj-text align="left" font-weight="900" padding="0px 0px 0px 25px">
+      TIPO: <br><br>
+      TIPO DE ENVÍO: <br><br>
+      PROVEEDOR:
+    </mj-text>
+  </mj-column>
+  <mj-column width="50%">
+    <mj-text align="right" padding="0px 50px 30px 0px">
+      Delivery <br><br>
+      Normal <br><br>
+      {{order.order_customer.first_surname}}
+    </mj-text>
+  </mj-column>
+</mj-section>

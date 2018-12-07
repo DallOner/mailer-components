@@ -1,0 +1,16 @@
+<mj-section background-color="#ffffff">
+  <mj-column width="100%">
+    <mj-image src="https://i.imgur.com/XQvgW6P.png" alt="StepByStep" />
+  </mj-column>
+  <mj-column width="100%" background-color="#ffd394">
+    <mj-text align="center" font-size="32px" font-weight="700" padding="40px 0px 0px 0px">
+      Comprobante de compra
+    </mj-text>
+    <mj-text align="center" font-size="12px">
+      Tu solicitud de compra se realizo con exito, gracias por confiar en nosotros
+    </mj-text>
+    <mj-text align="center" font-size="14px" font-weight="900" padding="20px 0px 50px 0px">
+      FECHA DE COMPRA: {{today_date}} a las {{today_time}}
+    </mj-text>
+  </mj-column>
+</mj-section>

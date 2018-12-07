@@ -1,0 +1,36 @@
+<mjml>
+  <mj-head>
+    <mj-title>Order Customer Example</mj-title>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500"></mj-font>
+    <mj-attributes>
+      <mj-all font-family="Montserrat, Helvetica, Arial, sans-serif"></mj-all>
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body>
+    <mj-include path="../components/header.mjml" />
+    
+    <mj-include path="../components/receipt/receipt-header.mjml" />
+
+    <mj-include path="../components/receipt/payment-type.mjml" />
+    <mj-divider width="90%" border-width="1px" border-style="solid" border-color="lightgrey" />
+
+    <mj-include path="../components/receipt/shipping-type.mjml" />
+    <mj-divider width="90%" border-width="1px" border-style="solid" border-color="lightgrey" />
+
+    <mj-include path="../components/receipt/shipping-data.mjml" />
+    <mj-divider width="90%" border-width="1px" border-style="solid" border-color="lightgrey" />
+
+    <mj-include path="../components/receipt/order-detail.mjml" />
+    
+    <mj-include path="../components/receipt/subtotal.mjml" />
+
+    <mj-include path="../components/rrss.mjml" />
+
+    <mj-include path="../components/footer.mjml" />
+
+    <mj-include path="../components/sponsors.mjml" />
+
+    <mj-include path="../components/notice.mjml" />
+  </mj-body>
+</mjml>

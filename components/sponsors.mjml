@@ -1,0 +1,27 @@
+<!--
+    Seccion de Footer. 
+    Esta seccion contiene un footer de 3 columnas,
+    donde se presentan un ico de chat, info de relevancia y 
+    puntos de contacto como telefono y/o email.
+-->
+
+<mj-section padding="20px 0px 20px 20px" full-width="full-width">
+  <mj-column width="100%">
+    <mj-text align="center" font-weight="400">
+      Nuestras marcas
+    </mj-text>
+  </mj-column>
+
+  <mj-column width="25%">
+    <mj-image align="right" width="50px" src="https://res.cloudinary.com/jtantadiaz/image/upload/v1543271572/statics_2/mailing/op14.png" alt="Mark" />
+  </mj-column>
+  <mj-column width="25%">
+    <mj-image align="right" width="50px" src="https://res.cloudinary.com/jtantadiaz/image/upload/v1543271573/statics_2/mailing/op11.png" alt="Mark" />
+  </mj-column>
+  <mj-column width="25%">
+    <mj-image align="left" width="50px" src="https://res.cloudinary.com/jtantadiaz/image/upload/v1543271572/statics_2/mailing/op13.png" alt="Mark" />
+  </mj-column>
+  <mj-column width="25%">
+    <mj-image align="left" width="50px" src="https://res.cloudinary.com/jtantadiaz/image/upload/v1543271573/statics_2/mailing/op15.png" alt="Mark" />
+  </mj-column>
+</mj-section>

@@ -1,0 +1,32 @@
+<mj-section background-color="#ffffff">
+  <mj-column width="100%">
+    <mj-text align="center" font-size="16px" font-weight="500" padding="30px 0px 10px 0px">DATOS DE {{receiving_type}}</mj-text>
+  </mj-column>
+</mj-section>
+<mj-section background-color="#ffffff">
+  <mj-column width="50%">
+    <mj-text align="left" font-size="10px" font-weight="900" padding="0px 0px 0px 25px">
+      CONSIGNADO: <br><br>
+      <br><br><br><br>
+      DEPARTAMENTO: <br><br>
+      PROVINCIA: <br><br>
+      DISTRITO: <br><br>
+      DIRECCION: <br><br>
+      REFERENCIA: <br><br>
+      CELULAR:
+    </mj-text>
+  </mj-column>
+  <mj-column width="50%">
+    <mj-text align="right" font-size="10px" padding="0px 50px 30px 0px">
+      {{order.order_customer.first_name}} <br><br>
+      {{order.order_customer.first_surname}} <br><br>
+      {{order.order_customer.last_surname}} <br><br>
+      {{address.state.name}} <br><br>
+      {{address.city.name}} <br><br>
+      {{address.zipcode.name}} <br><br>
+      {{address.address}} <br><br>
+      {{address.reference}} <br><br>
+      {{address.phone}}
+    </mj-text>
+  </mj-column>
+</mj-section>

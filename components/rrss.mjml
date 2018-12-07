@@ -1,0 +1,18 @@
+<!--
+    Seccion de Redes Sociales. 
+    Esta seccion contiene un titulo y los iconos
+    para compartir en las redes sociales deseadas.
+-->
+
+<mj-section>
+  <mj-column width="100%" padding="20px 0">
+    <mj-text align="center" font-size="15px" font-family="sans-serif" font-weight="bolder">
+      ¡Siguenos y comparte tu estilo topitop!
+    </mj-text>
+    <mj-social font-size="15px" icon-size="25px" mode="horizontal">
+      <mj-social-element name="instagram" href="#" padding="10px 0px 0px 5px"></mj-social-element>
+      <mj-social-element name="facebook" href="#" padding="10px 0px 0px 5px"></mj-social-element>
+      <mj-social-element name="youtube" href="#" padding="10px 0px 0px 5px"></mj-social-element>
+    </mj-social>
+  </mj-column>
+</mj-section>
