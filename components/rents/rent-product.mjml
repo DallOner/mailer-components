@@ -1,0 +1,21 @@
+<mj-section background-color="#f1f2f3">
+  <mj-column width="100%">
+    <mj-text align="center" font-size="20px" font-weight="700" padding="30px">
+      ¿Deseas alquilar este producto?
+    </mj-text>
+  </mj-column>
+  <mj-column width="50%">
+    <mj-text align="center" padding="0px 0px 40px 100px">
+      <a href="https://www.google.com/" style="height:44px;line-height:44px;width:120px;border-radius:50px;background:#8FD14F;display:block;margin:0 auto;color:#fff;text-decoration:none;font-size:12px;font-weight:700;">
+        SI
+      </a>
+    </mj-text>
+  </mj-column>
+  <mj-column width="50%">
+    <mj-text align="center" padding="0px 100px 0px 0px">
+      <a href="https://www.google.com/" style="height:44px;line-height:44px;width:120px;border-radius:50px;background:#F24627;display:block;margin:0 auto;color:#fff;text-decoration:none;font-size:12px;font-weight:700;">
+        NO
+      </a>
+    </mj-text>
+  </mj-column>
+</mj-section>
