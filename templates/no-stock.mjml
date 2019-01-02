@@ -1,0 +1,93 @@
+<mjml>
+  <mj-head>
+    <mj-title>Ilaria Order Customer</mj-title>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500"></mj-font>
+    <mj-attributes>
+      <mj-all font-family="Montserrat, Helvetica, Arial, sans-serif"></mj-all>
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body background-color="#f1f2f3">
+    
+    <mj-section padding="40px 0 0 0" border-bottom="1px solid lightgrey">
+      <mj-column width="100%">
+        <mj-image padding="0" src="https://res.cloudinary.com/jtantadiaz/image/upload/v1545253873/Ilaria/barra--2top-mail-ilaria.jpg" alt="" />
+      </mj-column>
+      <mj-column background-color="#ffffff" width="100%" padding="30px 0">
+        <mj-image src="https://res.cloudinary.com/jtantadiaz/image/upload/v1545233832/Ilaria/logo-azul-principal.png" alt="Brand-Image" width="80px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff">
+      <mj-column width="100%">
+        <mj-text align="center" font-size="20px" font-weight="900" padding="20px 0px">¡YA ESTA DISPONIBLE TU PRODUCTO!</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff">
+      <mj-column width="50%">
+        <mj-image align="right" src="http://res.cloudinary.com/enova-ilaria/image/upload/w_1500,/v1545424808/f14o4aunjyrmk4wrhots" alt="Detail-Image" width="100px" />
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text align="left" font-size="14px" font-weight="600" padding="25px 0px 0px 0px"> {{detail.product_name}} </mj-text>
+        <mj-text align="left" font-size="12px" font-weight="300" padding="10px 0px 0px 0px"> Descripcion del Producto </mj-text>
+        <mj-text align="left" font-size="12px" font-weight="600" padding="10px 0px 0px 0px"> S/ {{detail.price_net}} </mj-text>
+      </mj-column>
+      <mj-column background-color="#ffffff" width="100%">
+        <mj-text align="center" padding-top="30px">
+          <a href="https://www.google.com/" style="height:44px;line-height:44px;width:220px;border-radius:0px;background:#1b314d;display:block;margin:0 auto;color:#fff;text-decoration:none;font-size:12px;font-weight:700;">
+            IR A LA TIENDA
+          </a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="0px">
+      <mj-column width="100%" padding="20px 0">
+        <mj-text align="center" font-size="15px" font-family="sans-serif" font-weight="bolder">
+          ¡Siguenos y comparte tu estilo Ilaria!
+        </mj-text>
+          <mj-social font-size="15px" icon-size="25px" mode="horizontal">
+            <mj-social-element name="instagram" href="https://mjml.io/" padding="10px 0px 0px 5px"></mj-social-element>
+            <mj-social-element name="facebook" href="https://mjml.io/" padding="10px 0px 0px 5px"></mj-social-element>
+          </mj-social>
+      </mj-column>
+    </mj-section>
+    
+    <mj-section background-color="#000000" padding="20px 10px">
+      <mj-column width="20%" vertical-align="top" width="10%" padding="10px 0px 0px 0px">
+          <mj-image src="https://i.imgur.com/g2RVk91.png" alt="header image" />
+      </mj-column>
+      <mj-column vertical-align="top" width="50%" padding="0 0 0 40px" border-right="solid 1px #ffffff">
+        <mj-text align="left" font-size="12px" font-family="sans-serif" color="#ffffff" padding="5px 10px">
+            ¿Podemos ayudarte en algo?
+        </mj-text>
+        <mj-text align="left" font-size="12px" font-family="sans-serif" color="#ffffff" padding="10px" line-height="20px">
+              &bull; &#xA0;Ubica fácilmente tu pedido<br />
+              &bull; &#xA0;Información delivery <br />
+              &bull; &#xA0;Politica de cambios y devoluciones<br />   
+              &bull; &#xA0;Términos y condiciones<br />
+            </ul>
+        </mj-text>
+      </mj-column>
+      <mj-column vertical-align="middle" width="30%">
+        <mj-text align="left" font-size="12px" font-family="sans-serif" color="#ffffff" padding="40px 0px 0px 20px">
+          Teléfono: (01) 522 3322
+          <br> <br> 
+          Email: informes@ilaria.pe
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="20px 0px 20px 20px">
+      <mj-column width="100%" padding="30px 0px 0px 0px">
+        <mj-text align="center" font-size="10px" color="grey" >
+          Este mensaje es solo informativo ro responder a este correo.
+        </mj-text>
+        <mj-text align="center" font-size="10px" font-weight="600" color="#000000" padding="0px">
+          {{shop_name}}. Todos los derechos reservados
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
