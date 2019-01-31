@@ -1,0 +1,358 @@
+<mjml>
+  <mj-head>
+    <mj-title>Confirmación de Compra - Best Security!</mj-title>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500"></mj-font>
+    <mj-attributes>
+      <mj-all font-family="Montserrat, Helvetica, Arial, sans-serif"></mj-all>
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body background-color="#f1f2f3">
+
+    <!-- HEADER SECTION -->
+    <mj-section padding="40px 0px 0px 0px">
+
+      <mj-column background-color="#ffffff" padding="0px" width="600px">
+        <mj-image padding="0px" src="https://proyectos.staffdigital.pe/mailings/best-security/v1/banner-img.jpg" alt="Brand-Image" />
+      </mj-column>
+
+      <mj-column background-color="#ffffff" width="100%">
+        <mj-text align="center" font-size="30px" color="#2b292b" font-weight="900" padding-top="60px">
+          Confirmación de Compra
+        </mj-text>
+
+        <mj-text align="center" font-size="14px" font-weight="300" color="#858789" padding="10px 100px" line-height="22px">
+          Tu compra se realizó con éxito, gracias por confiar en nosotros.
+        </mj-text>
+        
+        <mj-text align="center" font-size="14px" font-weight="300" color="#858789" padding="10px 100px" line-height="22px">
+          FECHA DE COMPRA: 9/2/2018 a las 10:28
+        </mj-text>
+      </mj-column>
+
+    </mj-section>
+    <!-- END HEADER SECTION -->
+
+    <!-- CONTENT SECTION -->
+    <!-- TIPO DE ENVIO -->
+    <mj-section background-color="#ffffff" padding="30px 40px">
+      <mj-column width="100%" background-color="#de0000" padding="5px 0px" border-radius="50px">
+        <mj-text align="center" font-size="13px" font-weight="600" color="#ffffff">
+          TIPO DE ENVÍO
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="50%" border-bottom="1px solid #f1f2f3">
+        <mj-text align="left" font-size="13px" font-weight="600" color="#000000" padding="20px">
+          TIPO:
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%" border-bottom="1px solid #f1f2f3">
+        <mj-text align="right" font-size="13px" font-weight="400" color="#858789" padding="20px">
+          Delivery Programado
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- DATOS DE ENVIO-->
+    <mj-section background-color="#ffffff" padding="10px 40px">
+      <mj-column width="100%" background-color="#de0000" padding="5px 0px" border-radius="50px">
+        <mj-text align="center" font-size="13px" font-weight="600" color="#ffffff">
+          DATOS DE ENVÍO
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="50%" border-bottom="1px solid #f1f2f3">
+        <mj-text align="left" font-size="13px" font-weight="600" color="#000000" padding="20px">
+          DEPARTAMENTO:
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%" border-bottom="1px solid #f1f2f3">
+        <mj-text align="right" font-size="13px" font-weight="400" color="#858789" padding="20px">
+          Lima
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="50%" border-bottom="1px solid #f1f2f3">
+        <mj-text align="left" font-size="13px" font-weight="600" color="#000000" padding="20px">
+          PROVINCIA:
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%" border-bottom="1px solid #f1f2f3">
+        <mj-text align="right" font-size="13px" font-weight="400" color="#858789" padding="20px">
+          Lima
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="50%" border-bottom="1px solid #f1f2f3">
+        <mj-text align="left" font-size="13px" font-weight="600" color="#000000" padding="20px">
+          DISTRITO:
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%" border-bottom="1px solid #f1f2f3">
+        <mj-text align="right" font-size="13px" font-weight="400" color="#858789" padding="20px">
+          Santiago de Surco
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="50%" border-bottom="1px solid #f1f2f3">
+        <mj-text align="left" font-size="13px" font-weight="600" color="#000000" padding="20px">
+          DIRECCIÓN:
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%" border-bottom="1px solid #f1f2f3">
+        <mj-text align="right" font-size="13px" font-weight="400" color="#858789" padding="20px">
+          Av. Caminos del Inca 1325
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="50%" border-bottom="1px solid #f1f2f3">
+        <mj-text align="left" font-size="13px" font-weight="600" color="#000000" padding="20px">
+          REFERENCIA:
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%" border-bottom="1px solid #f1f2f3">
+        <mj-text align="right" font-size="13px" font-weight="400" color="#858789" padding="20px">
+          Altura de Don Mamino
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="50%" border-bottom="1px solid #f1f2f3">
+        <mj-text align="left" font-size="13px" font-weight="600" color="#000000" padding="20px">
+          CELULAR:
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%" border-bottom="1px solid #f1f2f3">
+        <mj-text align="right" font-size="13px" font-weight="400" color="#858789" padding="20px">
+          989900455
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- DATOS DE PEDIDO -->
+    <mj-section background-color="#ffffff" padding="30px 40px">
+      <mj-column width="100%" background-color="#de0000" padding="5px 0px" border-radius="50px">
+        <mj-text align="center" font-size="13px" font-weight="600" color="#ffffff">
+          DATOS DE PEDIDO
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="25%">
+        <mj-image src="https://proyectos.staffdigital.pe/mailings/best-security/v1/compra-img.png" alt="Product" />
+      </mj-column>
+      <mj-column width="50%" >
+        <mj-text align="left" font-size="13px" font-weight="800" color="#494949" padding="20px 0px 5px 0px">
+          Tubo Motorizado IR CCD 1/3" 960H
+        </mj-text>
+        <mj-text align="left" font-size="13px" font-weight="600" color="#858789" padding="0px 0px 10px 0px">
+          DH-CA-FW58IN-A
+        </mj-text>
+        <mj-text align="left" font-size="13px" font-weight="400" color="#858789" padding="10px 0px 10px 0px">
+          2 Unidades
+        </mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-text align="right" padding="15px 0px 0px 0px"></mj-text>
+        <mj-text align="center" font-size="16px" font-weight="800" padding="0px 0px 0px 50px">
+          <p style="background-color:#de0000; color:#ffffff; width:50px; padding:5px; border-radius:5px;">15%</p>
+        </mj-text>
+        <mj-text align="right" font-size="16px" font-weight="800" color="#494949" padding="0px 20px">
+          S/ 199.900
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%" padding="5px 0px" border-bottom="1px solid #f1f2f3"></mj-column>
+
+      <mj-column width="25%">
+        <mj-image src="https://proyectos.staffdigital.pe/mailings/best-security/v1/compra-img.png" alt="Product" />
+      </mj-column>
+      <mj-column width="50%" >
+        <mj-text align="left" font-size="13px" font-weight="800" color="#494949" padding="20px 0px 5px 0px">
+          Tubo Motorizado IR CCD 1/3" 960H
+        </mj-text>
+        <mj-text align="left" font-size="13px" font-weight="600" color="#858789" padding="0px 0px 10px 0px">
+          DH-CA-FW58IN-A
+        </mj-text>
+        <mj-text align="left" font-size="13px" font-weight="400" color="#858789" padding="10px 0px 10px 0px">
+          2 Unidades
+        </mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-text align="right" padding="50px 0px 0px 0px"></mj-text>
+        <mj-text align="right" font-size="16px" font-weight="800" color="#494949" padding="0px 20px">
+          S/ 199.900
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%" padding="5px 0px" border-bottom="1px solid #f1f2f3"></mj-column>
+
+      <mj-column width="25%">
+        <mj-image src="https://proyectos.staffdigital.pe/mailings/best-security/v1/compra-img.png" alt="Product" />
+      </mj-column>
+      <mj-column width="50%" >
+        <mj-text align="left" font-size="13px" font-weight="800" color="#494949" padding="20px 0px 5px 0px">
+          Tubo Motorizado IR CCD 1/3" 960H
+        </mj-text>
+        <mj-text align="left" font-size="13px" font-weight="600" color="#858789" padding="0px 0px 10px 0px">
+          DH-CA-FW58IN-A
+        </mj-text>
+        <mj-text align="left" font-size="13px" font-weight="400" color="#858789" padding="10px 0px 10px 0px">
+          2 Unidades
+        </mj-text>
+      </mj-column>
+      <mj-column width="25%">
+        <mj-text align="right" padding="50px 0px 0px 0px"></mj-text>
+        <mj-text align="right" font-size="16px" font-weight="800" color="#494949" padding="0px 20px">
+          S/ 199.900
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%" padding="5px 0px" border-bottom="1px solid #f1f2f3"></mj-column>
+    </mj-section>
+
+    <!-- SUBTOTAL SECTION -->
+    <mj-section background-color="#ffffff" padding="30px 40px">
+      <mj-column width="50%">
+        <mj-text align="left" font-size="13px" font-weight="600" color="#000000" padding="10px 20px">
+          SUBTOTAL:
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text align="right" font-size="13px" font-weight="800" color="#858789" padding="10px 20px">
+          S/ 00.00
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="50%">
+        <mj-text align="left" font-size="13px" font-weight="600" color="#000000" padding="10px 20px">
+          IGV:
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text align="right" font-size="13px" font-weight="800" color="#858789" padding="10px 20px">
+          S/ 00.00
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="50%">
+        <mj-text align="left" font-size="13px" font-weight="600" color="#000000" padding="10px 20px">
+          CUPONES Y DESCUENTOS:
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text align="right" font-size="13px" font-weight="800" color="#858789" padding="10px 20px">
+          S/ 00.00
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="50%" border-bottom="1px solid #f1f2f3">
+        <mj-text align="left" font-size="13px" font-weight="600" color="#000000" padding="10px 20px 30px 20px">
+          COSTO DE ENVIO:
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%" border-bottom="1px solid #f1f2f3">
+        <mj-text align="right" font-size="13px" font-weight="800" color="#858789" padding="10px 20px 30px 20px">
+          S/ 00.00
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="50%">
+        <mj-text align="left" font-size="13px" font-weight="600" color="#000000" padding="20px">
+          TOTAL:
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text align="right" font-size="13px" font-weight="800" color="#858789" padding="20px">
+          S/ 3579.00
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- FORMA DE PAGO -->
+    <mj-section background-color="#ffffff" padding="30px 40px">
+      <mj-column width="100%" background-color="#de0000" padding="5px 0px" border-radius="50px">
+        <mj-text align="center" font-size="13px" font-weight="600" color="#ffffff">
+          FORMA DE PAGO
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="50%" border-bottom="1px solid #f1f2f3">
+        <mj-text align="left" font-size="13px" font-weight="600" color="#000000" padding="20px">
+          FORMA DE PAGO:
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%" border-bottom="1px solid #f1f2f3">
+        <mj-text align="right" font-size="13px" font-weight="400" color="#858789" padding="20px">
+          Payu
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="50%" border-bottom="1px solid #f1f2f3">
+        <mj-text align="left" font-size="13px" font-weight="600" color="#000000" padding="20px">
+          MEDIO DE PAGO:
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%" border-bottom="1px solid #f1f2f3">
+        <mj-text align="right" font-size="13px" font-weight="400" color="#858789" padding="20px">
+          Visa
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff">
+      <mj-column background-color="#ffffff" width="100%">
+        <mj-text align="center" padding-bottom="60px">
+          <a href="https://www.google.com/" style="height:44px;line-height:44px;width:128px;border-radius:50px;background:#de0000;display:block;margin:0 auto;color:#fff;text-decoration:none;font-size:12px;font-weight:700;">
+            Ir a la Web
+          </a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END CONTENT SECTION -->
+
+    <!-- FOOTER SECTION -->
+    <mj-section background-color="#ffffff" border-bottom="2px solid #f1f2f3" border-top="2px solid #f1f2f3" padding="20px 10px">
+      <mj-column vertical-align="top" width="20%" padding="10px 0px 0px 0px">
+        <mj-image src="https://proyectos.staffdigital.pe/mailings/best-security/v1/img-ico.png" alt="header image" />
+      </mj-column>
+      <mj-column vertical-align="top" width="70%" padding="0 0 30px 30px">
+        <mj-text align="left" font-size="12px" font-family="sans-serif" color="#858789" padding="10px 30px 0px 0px" line-height="20px">
+          Por favor comunícate con nosotros a través del siguiente correo o teléfono de contacto, para confirmar el
+          pago o si tienes cualquier duda:
+          <!-- &bull; &#xA0;Información delivery <br />
+      &bull; &#xA0;Politica de cambios y devoluciones<br />
+      &bull; &#xA0;Términos y condiciones<br /> -->
+          <br>
+          <strong>Teléfono:</strong> (̣̣511) 512 - 3100
+          <br>
+          <strong>Email:</strong>  informes@bestsecurityperu.com
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#FFFFFF">
+      <mj-column padding="0px" width="100%">
+        <mj-text align="center" font-weight="600" color="#808080" padding="40px 0px 0px 0px">
+          Compra 100% segura con:
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text align="center" padding="5px 0px 0px 0px">
+          <img width="64px" style="padding:2.5px;" src="https://res.cloudinary.com/jtantadiaz/image/upload/v1542936327/statics_2/visa-logo.png" alt="Banks">
+          <img width="64px" style="padding:2.5px;" src="https://res.cloudinary.com/jtantadiaz/image/upload/v1542936327/statics_2/mastecard.png" alt="Banks">
+          <img width="64px" style="padding:2.5px;" src="https://res.cloudinary.com/jtantadiaz/image/upload/v1542936328/statics_2/diners.png" alt="Banks">
+          <img width="64px" style="padding:2.5px;" src="https://res.cloudinary.com/jtantadiaz/image/upload/v1542936327/statics_2/american.png" alt="Banks">
+        </mj-text>
+    </mj-section>
+    <!-- END FOOTER SECTION -->
+    
+    <!-- NOTICE SECTION -->
+    <mj-section background-color="#ffffff" padding="0px 0px 50px 20px">
+      <mj-column width="100%" padding="0px">
+        <mj-text align="center" font-size="12px" color="grey">
+          Este mensaje es solo informativo no responder a este correo.
+        </mj-text>
+        <mj-text align="center" font-size="10px" font-weight="600" color="#858789" padding="0px">
+          ©{{shop_name}}. Todos los derechos reservados
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END NOTICE SECTION -->
+  </mj-body>
+</mjml>
