@@ -1,0 +1,12 @@
+<!-- 
+    Title with Padding to create a card.
+    if you dont want spaces between component and body
+    please delete padding="30px 40px" in mj-section tag
+-->
+<mj-section background-color="#ffffff" padding="30px 40px">
+  <mj-column width="100%" background-color="#de0000" padding="5px 0px" border-radius="0px">
+    <mj-text align="center" font-size="13px" font-weight="600" color="#ffffff">
+      TITULO DE LA SECCIÓN
+    </mj-text>
+  </mj-column>
+</mj-section>
