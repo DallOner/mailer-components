@@ -1,21 +1,20 @@
-<mj-section background-color="#ffffff">
-  <mj-column width="100%">
-    <mj-text align="center" font-size="16px" font-weight="500" padding="10px 0px">TIPO DE {{receiving_type}}</mj-text>
-  </mj-column>
-</mj-section>
-<mj-section>
-  <mj-column width="50%">
-    <mj-text align="left" font-weight="900" padding="0px 0px 0px 25px">
-      TIPO: <br><br>
-      TIPO DE ENVÍO: <br><br>
-      PROVEEDOR:
-    </mj-text>
-  </mj-column>
-  <mj-column width="50%">
-    <mj-text align="right" padding="0px 50px 30px 0px">
-      Delivery <br><br>
-      Normal <br><br>
-      {{order.order_customer.first_surname}}
-    </mj-text>
-  </mj-column>
+<mj-section background-color="#ffffff" padding="30px 40px">
+  <mj-group>
+    <mj-column width="100%" background-color="#00b3e3" padding="5px 0px" border-radius="0px">
+      <mj-text align="center" font-size="13px" font-weight="600" color="#ffffff">
+        TIPO DE ENVÍO
+      </mj-text>
+    </mj-column>
+
+    <mj-column width="50%" border-bottom="1px solid #f1f2f3">
+      <mj-text align="left" font-size="13px" font-weight="600" color="#000000" padding="20px">
+        TIPO:
+      </mj-text>
+    </mj-column>
+    <mj-column width="50%" border-bottom="1px solid #f1f2f3">
+      <mj-text align="right" font-size="13px" font-weight="400" color="#858789" padding="20px">
+        Delivery Programado
+      </mj-text>
+    </mj-column>
+  </mj-group>
 </mj-section>

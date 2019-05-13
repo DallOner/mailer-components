@@ -4,14 +4,16 @@
   </mj-column>
 </mj-section>
 <mj-section>
-  <mj-column width="50%">
-    <mj-text align="left" font-weight="900" padding="0px 0px 0px 25px">
-      TIPO:
-    </mj-text>
-  </mj-column>
-  <mj-column width="50%">
-    <mj-text align="right" padding="0px 50px 30px 0px">
-      {{order.payment_gateway.name_store}}
-    </mj-text>
-  </mj-column>
+  <mj-group>
+    <mj-column width="50%">
+      <mj-text align="left" font-weight="900" padding="0px 0px 0px 25px">
+        TIPO:
+      </mj-text>
+    </mj-column>
+    <mj-column width="50%">
+      <mj-text align="right" padding="0px 50px 30px 0px">
+        {{order.payment_gateway.name_store}}
+      </mj-text>
+    </mj-column>
+  </mj-group>
 </mj-section>

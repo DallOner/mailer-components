@@ -1,0 +1,6 @@
+<!-- Payment image Classic (Visa, Mastercard, DinnerClub and American Express) -->
+<mj-image src="https://i.ibb.co/nnLWwmW/payment-methods.png" alt="Payments" />
+
+<!-- Payment image Classic + Pago Efectivo -->
+<mj-image src="https://i.ibb.co/RDzLTfT/payment-methods-w-pe.png" alt="Payments" />
+

@@ -4,15 +4,17 @@
   </mj-column>
 </mj-section>
 <mj-section>
-  <mj-column width="50%">
-    <mj-image align="right" src="http://res.cloudinary.com/jtantadiaz/image/upload/w_620,/v1540997138/ilm0intyai5jq8rebzfm" alt="Detail-Image" width="100px" />
-  </mj-column>
-  <mj-column width="50%">
-    <mj-text align="left" font-size="14px" font-weight="600" padding="10px 0px 0px 0px"> Pedido N° {{order.code}} </mj-text>
-    <mj-text align="left" font-size="12px" font-weight="600" padding="10px 0px 0px 0px"> {{detail.product_name}} </mj-text>
-    <mj-text align="left" font-size="12px" font-weight="300" padding="10px 0px 0px 0px"> Cantidad: {{detail.quantity}} </mj-text>
-    <mj-text align="left" font-size="12px" font-weight="300" padding="10px 0px 0px 0px"> Talla: M </mj-text>
-    <mj-text align="left" font-size="12px" font-weight="300" padding="10px 0px 0px 0px"> Color: {{detail.color}} </mj-text>
-    <mj-text align="left" font-size="12px" font-weight="600" padding="10px 0px 0px 0px"> S/ {{detail.price_net}} </mj-text>
-  </mj-column>
+  <mj-group>
+    <mj-column width="50%">
+      <mj-image align="right" src="http://res.cloudinary.com/jtantadiaz/image/upload/w_620,/v1540997138/ilm0intyai5jq8rebzfm" alt="Detail-Image" width="100px" />
+    </mj-column>
+    <mj-column width="50%">
+      <mj-text align="left" font-size="14px" font-weight="600" padding="10px 0px 0px 0px"> Pedido N° {{order.code}} </mj-text>
+      <mj-text align="left" font-size="12px" font-weight="600" padding="10px 0px 0px 0px"> {{detail.product_name}} </mj-text>
+      <mj-text align="left" font-size="12px" font-weight="300" padding="10px 0px 0px 0px"> Cantidad: {{detail.quantity}} </mj-text>
+      <mj-text align="left" font-size="12px" font-weight="300" padding="10px 0px 0px 0px"> Talla: M </mj-text>
+      <mj-text align="left" font-size="12px" font-weight="300" padding="10px 0px 0px 0px"> Color: {{detail.color}} </mj-text>
+      <mj-text align="left" font-size="12px" font-weight="600" padding="10px 0px 0px 0px"> S/ {{detail.price_net}} </mj-text>
+    </mj-column>
+  </mj-group>
 </mj-section>

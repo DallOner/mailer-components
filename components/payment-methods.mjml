@@ -1,10 +1,12 @@
 <mj-section background-color="#FFFFFF">
   <mj-column padding="0px" width="100%">
-    <mj-text align="center" font-weight="600" color="#000000" padding="40px 0px 0px 0px">
+    <mj-text align="center" font-weight="600" color="#808080" padding="40px 0px 0px 0px">
       Pagos 100% seguros con:
     </mj-text>
   </mj-column>
-  <mj-column width="100%">
-    <mj-image width="50px" src="https://res.cloudinary.com/jtantadiaz/image/upload/v1544124744/Alquilab/visa.png" alt="Banks" />
+</mj-section>
+<mj-section background-color="#FFFFFF" padding="0px 80px 20px 80px">
+  <mj-column padding="2.5px" width="100%">
+    <mj-image src="https://i.ibb.co/nnLWwmW/payment-methods.png" alt="Payments" />
   </mj-column>
 </mj-section>

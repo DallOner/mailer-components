@@ -5,27 +5,54 @@
     puntos de contacto como telefono y/o email.
 -->
 
-<mj-section background-color="#000000" padding="20px 10px">
-  <mj-column vertical-align="top" width="10%" padding="10px 0px 0px 0px">
-    <mj-image src="https://i.imgur.com/g2RVk91.png" alt="header image" />
-  </mj-column>
-  <mj-column vertical-align="top" width="50%" padding="0 0 0 40px" border-right="solid 1px #ffffff">
-    <mj-text align="left" font-size="12px" font-family="sans-serif" color="#ffffff" padding="5px 10px">
-      ¿Podemos ayudarte en algo?
-    </mj-text>
-    <mj-text align="left" font-size="12px" font-family="sans-serif" color="#ffffff" padding="10px" line-height="20px">
-      &bull; &#xA0;Ubica fácilmente tu pedido<br />
-      &bull; &#xA0;Información delivery <br />
+<!-- Footer White with 2-columns -->
+<mj-section background-color="#ffffff" border-bottom="2px solid #f1f2f3" border-top="2px solid #f1f2f3" padding="20px 10px">
+  <mj-group>
+    <mj-column vertical-align="top" width="20%" padding="10px 0px 0px 0px">
+      <mj-image src="https://s3-us-west-2.amazonaws.com/s3-enova/media/Imagenes/mailing-img-qa.png" alt="header image" />
+    </mj-column>
+    <mj-column vertical-align="top" width="70%" padding="0 0 30px 30px">
+      <mj-text align="left" font-size="12px" font-family="sans-serif" color="#858789" padding="10px 30px 0px 0px" line-height="20px">
+        Por favor comunícate con nosotros a través del siguiente correo o teléfono de contacto, para confirmar el
+        pago o si tienes cualquier duda:
+        <!-- &bull; &#xA0;Información delivery <br />
       &bull; &#xA0;Politica de cambios y devoluciones<br />
-      &bull; &#xA0;Términos y condiciones<br />
-      </ul>
-    </mj-text>
-  </mj-column>
-  <mj-column vertical-align="middle" width="30%">
-    <mj-text align="left" font-size="12px" font-family="sans-serif" color="#ffffff" padding="40px 0px 0px 20px">
-      Teléfono: (01) 522 3322
-      <br> <br>
-      Email: informes@topitop.pe
-    </mj-text>
-  </mj-column>
+      &bull; &#xA0;Términos y condiciones<br /> -->
+        <br>
+        <strong>Teléfono:</strong> (̣̣+51) 000 000 000
+        &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;
+        <strong>Email:</strong> info@empresa.com
+      </mj-text>
+    </mj-column>
+  </mj-group>
 </mj-section>
+<!-- END of Footer White with 2-columns -->
+
+<!-- Footer Black with 3-columns -->
+<mj-section background-color="#000000" padding="20px 10px">
+  <mj-group>
+    <mj-column vertical-align="top" width="20%" padding="10px 0px 0px 0px">
+      <mj-image src="https://s3-us-west-2.amazonaws.com/s3-enova/media/Imagenes/mailing-img-qa.png" alt="header image" />
+    </mj-column>
+    <mj-column vertical-align="top" width="50%" padding="0 0 0 40px" border-right="solid 1px #ffffff">
+      <mj-text align="left" font-size="12px" font-family="sans-serif" color="#ffffff" padding="5px 10px">
+        ¿Podemos ayudarte en algo?
+      </mj-text>
+      <mj-text align="left" font-size="12px" font-family="sans-serif" color="#ffffff" padding="10px" line-height="20px">
+        &bull; &#xA0;Ubica fácilmente tu pedido<br />
+        &bull; &#xA0;Información delivery <br />
+        &bull; &#xA0;Politica de cambios y devoluciones<br />
+        &bull; &#xA0;Términos y condiciones<br />
+        </ul>
+      </mj-text>
+    </mj-column>
+    <mj-column vertical-align="middle" width="30%">
+      <mj-text align="left" font-size="12px" font-family="sans-serif" color="#ffffff" padding="40px 0px 0px 20px">
+        Teléfono: (01) 522 3322
+        <br> <br>
+        Email: informes@topitop.pe
+      </mj-text>
+    </mj-column>
+  </mj-group>
+</mj-section>
+<!-- END of Footer Black with 3-columns -->

@@ -5,23 +5,26 @@
     puntos de contacto como telefono y/o email.
 -->
 
-<mj-section padding="20px 0px 20px 20px" full-width="full-width">
+<mj-section padding="20px 0px 0px 20px" full-width="full-width">
   <mj-column width="100%">
     <mj-text align="center" font-weight="400">
-      Nuestras marcas
+      Sponsors
     </mj-text>
   </mj-column>
-
-  <mj-column width="25%">
-    <mj-image align="right" width="50px" src="https://res.cloudinary.com/jtantadiaz/image/upload/v1543271572/statics_2/mailing/op14.png" alt="Mark" />
-  </mj-column>
-  <mj-column width="25%">
-    <mj-image align="right" width="50px" src="https://res.cloudinary.com/jtantadiaz/image/upload/v1543271573/statics_2/mailing/op11.png" alt="Mark" />
-  </mj-column>
-  <mj-column width="25%">
-    <mj-image align="left" width="50px" src="https://res.cloudinary.com/jtantadiaz/image/upload/v1543271572/statics_2/mailing/op13.png" alt="Mark" />
-  </mj-column>
-  <mj-column width="25%">
-    <mj-image align="left" width="50px" src="https://res.cloudinary.com/jtantadiaz/image/upload/v1543271573/statics_2/mailing/op15.png" alt="Mark" />
-  </mj-column>
+</mj-section>
+<mj-section padding="0px">
+  <mj-group>
+    <mj-column width="25%">
+      <mj-image align="right" width="50px" src="https://res.cloudinary.com/jtantadiaz/image/upload/v1543271572/statics_2/mailing/op14.png" alt="Mark" />
+    </mj-column>
+    <mj-column width="25%">
+      <mj-image align="right" width="50px" src="https://res.cloudinary.com/jtantadiaz/image/upload/v1543271573/statics_2/mailing/op11.png" alt="Mark" />
+    </mj-column>
+    <mj-column width="25%">
+      <mj-image align="left" width="50px" src="https://res.cloudinary.com/jtantadiaz/image/upload/v1543271572/statics_2/mailing/op13.png" alt="Mark" />
+    </mj-column>
+    <mj-column width="25%">
+      <mj-image align="left" width="50px" src="https://res.cloudinary.com/jtantadiaz/image/upload/v1543271573/statics_2/mailing/op15.png" alt="Mark" />
+    </mj-column>
+  </mj-group>
 </mj-section>

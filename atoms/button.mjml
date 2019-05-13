@@ -1,5 +1,5 @@
-<mj-text align="center" padding="0px 100px 0px 0px">
-  <a href="https://www.google.com/" style="height:44px;line-height:44px;width:120px;border-radius:50px;background:#F24627;display:block;margin:0 auto;color:#fff;text-decoration:none;font-size:12px;font-weight:700;">
-    NO
-  </a>
-</mj-text>
+<mj-button font-family="Helvetica" font-size="13px" font-weight="700" 
+  background-color="#002e6d" color="#FFFFFF" border-radius="50px" 
+  href="https://www.google.com/" width="320px">
+  VER MI ORDEN EN LA TIENDA
+</mj-button>

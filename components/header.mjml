@@ -5,38 +5,37 @@
     posee un banner junto a una introduccion al Mailing correspondiente.
 -->
 
-<mj-section padding="20px 20px 0 20px" full-width="full-width">
-
-  <mj-column width="33.333%" padding-right="20px">
-    <mj-image src="https://topitop.enova.team/src/img/topitop.png" alt="Brand-Image" width="96px" />
-  </mj-column>
-  <mj-column width="66.666%">
-    <mj-text align="center" vertical-align="bottom" padding-bottom="0px" padding-top="20px">
-      <a href="#" style="text-decoration: none; color: inherit; padding-left: 0px;">Mujer</a>
-      &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;
-      <a href="#" style="text-decoration: none; color: inherit;">Hombre</a>
-      &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;
-      <a href="#" style="text-decoration: none; color: inherit;">Niñas</a>
-      &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;
-      <a href="#" style="text-decoration: none; color: inherit;">Niños</a>
-    </mj-text>
-  </mj-column>
-
-  <mj-column width="100%">
-    <mj-image src="http://res.cloudinary.com/jtantadiaz/image/upload/v1541887806/zoi5nqjpktomgurq28ev.jpg" alt="Banner-Image" />
-  </mj-column>
-
-  <mj-column width="100%">
-    <mj-text align="center" font-size="30px" font-weight="900"> ¡Hola, </mj-text>
-    <mj-text align="center" font-size="24px" font-weight="300" letter-spacing="0.4px">
-      {{order.order_customer.first_name}} <br>
-      {{order.order_customer.first_surname}} <br>
-      {{order.order_customer.last_surname}}!
-    </mj-text>
-    <mj-text align="center" font-size="14px" font-weight="300" color="#8E8E8E" padding="10px 100px" line-height="22px">
-      Nos encanta que prefieras Topitop. En solo unos momentos procesaremos
-      tu orden para que puedas disfrutar de tus productos
-    </mj-text>
-  </mj-column>
-
+<!-- Header Singleton -->
+<mj-section padding="40px 0 0 0" border-bottom="1px solid lightgrey">
+  <mj-group>
+    <mj-column width="100%">
+      <mj-image padding="0" src="https://res.cloudinary.com/jtantadiaz/image/upload/v1545253873/Ilaria/barra--2top-mail-ilaria.jpg" alt="" />
+    </mj-column>
+    <mj-column background-color="#ffffff" width="100%" padding="30px 0">
+      <mj-image src="https://res.cloudinary.com/jtantadiaz/image/upload/v1545233832/Ilaria/logo-azul-principal.png" alt="Brand-Image" width="80px" />
+    </mj-column>
+  </mj-group>
 </mj-section>
+<!-- END of Header Singleton -->
+
+<!-- Header 2-columns - Brand (left) & Navbar (right) -->
+<mj-section background-color="#ffffff" padding="20px 20px 0 20px">
+  <mj-group>
+    <mj-column width="33.333%" padding-right="20px">
+      <mj-image src="https://topitop.enova.team/src/img/topitop.png" alt="Brand-Image" width="96px" />
+    </mj-column>
+    <mj-column width="66.666%">
+      <mj-navbar base-url="https://topitop.pe" hamburger="hamburger" ico-color="#000000">
+        <mj-navbar-link href="/collections/mujer" color="#000000">Mujer</mj-navbar-link>
+        <mj-navbar-link href="/collections/hombre" color="#000000">Hombre</mj-navbar-link>
+        <mj-navbar-link href="/collections/kids-nina" color="#000000">Niñas</mj-navbar-link>
+        <mj-navbar-link href="/collections/kids-nino" color="#000000">Niños</mj-navbar-link>
+      </mj-navbar>
+    </mj-column>
+
+    <mj-column width="100%">
+      <mj-image src="http://res.cloudinary.com/jtantadiaz/image/upload/v1541887806/zoi5nqjpktomgurq28ev.jpg" alt="Banner-Image" />
+    </mj-column>
+  </mj-group>
+</mj-section>
+<!-- END of Header 2-columns - Brand (left) & Navbar (right) -->

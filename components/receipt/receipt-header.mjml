@@ -1,7 +1,4 @@
 <mj-section background-color="#ffffff">
-  <mj-column width="100%">
-    <mj-image src="https://i.imgur.com/XQvgW6P.png" alt="StepByStep" />
-  </mj-column>
   <mj-column width="100%" background-color="#ffd394">
     <mj-text align="center" font-size="32px" font-weight="700" padding="40px 0px 0px 0px">
       Comprobante de compra
