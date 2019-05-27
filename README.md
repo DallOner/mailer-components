@@ -1,29 +1,29 @@
-# Mailing Boilerplate
+# Mailer Components
 
-Template que ayudara a la creación rápida de Mailing para cualquier cliente, mediante el uso de componentes pre-fabricados, dando libertad de costumizacion segun las necesidades.
+Template that will help the rapid creation of Mailing for any client, through the use of pre-fabricated components, giving freedom of customization according to the needs.
 
-## Configuración Previa
+## Previous Set-up!
 
-Para crear los templates deseados, primero se debe configurar el entorno de trabajo para que pueda funcionar todo al 100%. Se debe instalar [MJML Framework](https://mjml.io/) para que se puedan compilar los archivos .mjml 
+To create the desired templates, you must first configure the work environment so that everything can work 100%. You must install [MJML Framework](https://mjml.io/) so that the .mjml files can be compiled.
 
-Para la instalación:
+Installation:
 
-*Instalar via NPM de forma global el framework.* 
+*Install MJML framework via NPM in a global way.*
 
     $ npm install -g mjml
 
-Una vez instalado se debe instalar localmente
+Once installed it must be installed locally.
 
     $ npm init -y && npm install mjml
-Ya con esta configuración deberia correr los comandos basicos de MJML. En caso contrario ejecutar el siguiente comando via YARN:
+Already with this configuration should run the basic commands of MJML. Otherwise, execute the following command via YARN:
 
     $ yarn install mjml
-Por ultimo, en la terminal ubicarse en la carpeta del boilerplate. Ejemplo:
+Finally, in the terminal located in the boilerplate folder. Example:
 
     ~/Escritorio/mailing-boilerplate$
 
-## Creando Templates
+## Creating Templates
 
-En la estructura del proyecto se encontrara una carpeta de componentes donde se podrán costumizar e importar al index.mjml mediante el uso del tag mj-include:
+In the structure of the project you will find a folder of components where you can customize and import the index.mjml by using the mj-include tag:
 
     <mj-include path="./components/header" />
